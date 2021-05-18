@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    width: 100%;
+    /* border: 2px solid var(--gold_color); */
+    box-shadow: 5px 5px 8px var(--light_blue);
+}
+
+.header > nav {
+    background: var(--dark_blue) !important;
+    padding: 1rem;
+}
+
+.header > .navbar > .navbar-brand {
+    font-weight: 600 ;
+    font-size: 1.7rem ;
+    color: var(--gold_color) ;
+}
+
+.header > .navbar > .navbar-collapse > .navbar-nav > .nav-link {
+    color: var(--gold_color);
+    padding: 0rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.header > .navbar > .navbar-collapse > .navbar-nav > .nav-link:hover {
+    color: white;
+}
