@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+}
+
+.about > div {
+    margin: 2rem 0rem;
+    padding: 0rem 10px;
+}
+
+.about__detail > h2 {
+    font-size: 2.5rem;
+}
+
+.about__detail > p {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.about__detail--btn {
+    background: var(--dark_blue);
+    color: var(--gold_color);
+    border: 4px solid var(--gold_color);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about__detail--btn:hover {
+    color: white;
+    border-color: white;
+}
+
+@media (min-width: 750px) {
+    .about {
+        flex-direction: row;
+        margin: 4rem 0rem;
+        justify-content: space-around;
+    }
+
+    .about > div {
+        margin: 2rem 1rem;
+    }
+
+    .about__detail {
+        width: 50%;
+    }
+    .about__detail {
+        padding: 1rem 10rem;
+    }
+}

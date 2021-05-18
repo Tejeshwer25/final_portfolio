@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -12,5 +14,10 @@
 
 .app {
     background: var(--dark_blue);
-    height: 100vh;
+}
+
+.app__main {    
+    padding-top: 6rem;
+    top: 50;
+    color: var(--gold_color);
 }

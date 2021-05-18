@@ -1,0 +1,12 @@
+.home {
+    margin: 4rem 0rem;
+}
+
+@media (min-width: 880px) {
+    .home {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 3.5rem 0rem;
+        margin: 0;
+    }
+}

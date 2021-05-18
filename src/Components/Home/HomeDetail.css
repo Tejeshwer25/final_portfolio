@@ -1,0 +1,53 @@
+.detail__content{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.detail__greet {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.detail__content > h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.detail__profession {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.detail__content--img{
+    margin: 2rem 0rem;
+    text-align: left;
+    filter: drop-shadow(2px 4px 8px var(--light_blue));
+}
+
+@media (min-width: 880px) {
+    .detail {
+        align-self: end;
+    }
+
+    .detail__content {
+        text-align: left;
+        padding: 8rem 2rem;
+    }
+
+    .detail__greet {
+        font-size: 2rem;
+    }
+
+    .detail__content > h1 {
+        font-size: 4rem;
+    }
+
+    .detail__profession {
+        font-size: 2rem;
+    }
+
+    .detail__content--img {
+        height: 30rem;
+    }
+}

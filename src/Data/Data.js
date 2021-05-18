@@ -1,7 +1,7 @@
 var DATA = {
   'profile': {
-    'name': 'Tejeshwer Singh',
-    'image': require('../images/Profile.png'),
+    'name': 'Tejeshwer Singh Sachdeva',
+    'image': require('../images/Profile1.png'),
     'profession': 'Front-End Developer',
     'bio': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend.    Suspendisse vitae ligula sed nibh elementum varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend. Suspendisse vitae ligula sed nibh elementum varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend. Suspendisse vitae ligula sed nibh elementum varius.',
     'resume': '',
