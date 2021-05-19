@@ -1,7 +1,9 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-import About from "./Components/About/About"
+import About from "./Components/About/About";
+import Project from "./Components/Projects/Project";
+import Contact from "./Components/Contact/Contact";
 import data from './Data/Data';
 
 function App() {
@@ -15,6 +17,10 @@ function App() {
         <Home data={data.profile}/>
 
         <About data={data.profile}/>
+
+        <Project data={data.projects}/>
+
+        <Contact data={data.social} />
       </div>
       
     </div>

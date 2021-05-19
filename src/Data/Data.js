@@ -44,24 +44,43 @@ var DATA = {
       "name": "Covid-19 Tracker",
       "domain": "Front-End Development",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend Suspendisse vitae ligul",
-      "url": "",
-      "img": "",
+      "url": "https://elegant-bhabha-243c16.netlify.app/",
+      "img": require("../images/Covidtracker.png"),
     }, 
     "amazon clone": {
       "name": "Amazon Clone",
       "domain": "Full-Stack Development",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend Suspendisse vitae ligul",
-      "url": "",
-      "img": "",
+      "url": "https://clone-1f843.web.app/",
+      "img": require("../images/Amazonclone.png"),
     }
   },
 
   "social": {
-    "LinkedIn": "",
-    "Facebook": "",
-    "Instagram": "",
-    "Twitter": "",
-    "Email": "",
+    "LinkedIn": {
+      "link": "https://www.linkedin.com/in/tejeshwer-singh-sachdeva-1961a9191/",
+      "img": require("../images/linkedin.png")
+    },
+    "Facebook": {
+      "link": "https://www.facebook.com/tejeshwersinghsachdeva.tss2500",
+      "img": require("../images/facebook.png")
+    },
+    "Instagram": {
+      "link": "https://www.instagram.com/lets_dev/",
+      "img": require("../images/instagram.png")
+    },
+    "Twitter": {
+      "link": "https://twitter.com/tejeshwer_singh",
+      "img": require("../images/twitter.png")
+    },
+    // "Email": {
+    //   "link": "tejeshwersingh2504@gmail.com",
+    //   "img": require("../images/gmail.png")
+    // },
+    "Github": {
+      "link": "https://github.com/Tejeshwer25",
+      "img": require("../images/github.png")
+    }
   }
 };
 

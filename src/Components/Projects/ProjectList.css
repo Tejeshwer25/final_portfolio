@@ -1,0 +1,16 @@
+.projectList {
+    display: grid;
+    margin: 0px auto;
+}
+
+@media (min-width:550px) {
+    .projectList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 880px) {
+    .projectList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

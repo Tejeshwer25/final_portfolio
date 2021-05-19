@@ -1,0 +1,25 @@
+.contact {
+    padding: 3rem 2rem;
+}
+
+.contact__links {
+    display: grid;
+    margin-top: 2rem;
+    grid-gap: 1.5rem;
+}
+
+.contact__links:last-child {
+    margin-bottom: 0px !important;
+}
+
+@media (min-width:550px) {
+    .contact__links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 880px) {
+    .contact__links {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

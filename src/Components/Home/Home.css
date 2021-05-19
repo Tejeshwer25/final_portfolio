@@ -1,5 +1,5 @@
 .home {
-    margin: 4rem 0rem;
+    padding: 4rem 0rem;
 }
 
 @media (min-width: 880px) {
@@ -8,5 +8,12 @@
         grid-template-columns: 2fr 1fr;
         padding: 3.5rem 0rem;
         margin: 0;
+    }
+}
+
+@media (min-width: 1500px) {
+    .home {
+        background: url(../../images/banner.png) no-repeat left top;
+        background-size: 100%;
     }
 }

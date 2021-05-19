@@ -1,8 +1,11 @@
 .about {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0rem;
-    padding: 1rem 0rem;
+    padding: 4rem 0rem;
+}
+
+.about__img > img {
+    width: 100%;
 }
 
 .about > div {
@@ -30,7 +33,7 @@
 }
 
 .about__detail--btn:hover {
-    color: white;
+    background: var(--light_blue);
     border-color: white;
 }
 
