@@ -1,0 +1,17 @@
+.skills {
+    padding: 2rem 1rem;
+    width: 95%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.skills__details {
+    background: var(--light_blue);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.education__title {
+    font-size: 2.5rem;
+}

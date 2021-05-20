@@ -1,0 +1,11 @@
+.resume {
+    padding: 2rem 0rem;
+}
+
+@media (min-width:700px ) {
+    .resume {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        height: 100%;
+    }
+}

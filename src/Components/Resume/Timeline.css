@@ -1,0 +1,20 @@
+.timeline > .vertical-timeline{ 
+    color: var(--gold_color);
+}
+
+.timeline > .vertical-timeline::before {
+    background: var(--gold_color);
+}
+
+.vertical-timeline-element-icon {
+    background: var(--gold_color) !important;
+}
+
+.vertical-timeline-element-content {
+    background: none !important;
+    padding-top: 0 !important;
+}
+
+.vertical-timeline-element-content-arrow {
+    border: none !important;
+}

@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import About from "./Components/About/About";
 import Project from "./Components/Projects/Project";
 import Contact from "./Components/Contact/Contact";
+import Resume from "./Components/Resume/Resume";
 import data from './Data/Data';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Home data={data.profile}/>
 
         <About data={data.profile}/>
+
+        <Resume education={data.education} skills={data.skills}/>
 
         <Project data={data.projects}/>
 

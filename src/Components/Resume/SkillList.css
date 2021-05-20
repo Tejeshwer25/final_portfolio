@@ -1,0 +1,29 @@
+.skillList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+
+.skillList__name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.skillList__progress {
+    width: 40%;
+    background: white;
+    height: 3px;
+}
+
+.skillList__progress > div {
+    background: var(--gold_color);
+    height: 3px;
+}
+
+@media (min-width: 900px) {
+    .skillList__name {
+        font-size: 1.5rem;
+    }
+}

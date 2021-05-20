@@ -1,7 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0rem;
+    padding: 5rem 0rem;
 }
 
 .about__img > img {
@@ -30,6 +30,15 @@
     border-radius: 10px;
     text-align: center;
     font-size: 1.5rem;
+}
+
+.about__detail--btn > a {
+    color: var(--gold_color);
+}
+
+.about__detail--btn > a:hover {
+    color: var(--gold_color);
+    text-decoration: none;
 }
 
 .about__detail--btn:hover {

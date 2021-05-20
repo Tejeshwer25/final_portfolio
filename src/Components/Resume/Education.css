@@ -1,0 +1,17 @@
+.education {
+    padding: 2rem 1rem;
+    width: 95%;
+    margin: auto;
+}
+
+.education__timeline {
+    background: var(--light_blue);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.education__title {
+    padding: 1rem 0rem;
+    color: var(--gold_color);
+}

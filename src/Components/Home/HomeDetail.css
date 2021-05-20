@@ -19,10 +19,16 @@
     font-weight: bold;
 }
 
+.detail__contentimg {
+    z-index: 2;
+}
+
 .detail__content--img{
     margin: 2rem 0rem;
     max-width: 100%;
     text-align: left;
+    z-index: 2;
+    /* overflow: visible; */
     filter: drop-shadow(2px 4px 8px var(--light_blue));
 }
 

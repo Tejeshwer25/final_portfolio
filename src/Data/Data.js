@@ -29,14 +29,14 @@ var DATA = {
   },
 
   "skills": {
-    "front-end development": "70",
-    "back-end development": "10",
-    "full-stack development": "40",
+    "front-end": "70",
+    "back-end": "10",
+    "full-stack": "40",
     "react.js": "80",
     "python": "60",
     "javascript": "70",
-    "c++ programming": "60",
-    "seo": "0"
+    "c++": "60",
+    "seo": "5"
   },
 
   "projects": {
