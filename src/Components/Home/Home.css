@@ -2,12 +2,6 @@
     padding: 4rem 0rem;
 }
 
-.home {
-    background: url(../../images/banner.png) no-repeat ;
-    background-position: 0px -30px;
-    background-size: 100% 100%;
-}
-
 @media (min-width: 880px) {
     .home {
         display: grid;
@@ -16,11 +10,7 @@
         margin: 0;
     }
 
-    .home {
-        background: url(../../images/banner.png) no-repeat ;
-        background-position: 0px -30px;
-        background-size: 100% 100%;
-    }
+    
 }
 
 @media (min-width: 1024px) {
