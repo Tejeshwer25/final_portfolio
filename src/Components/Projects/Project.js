@@ -14,6 +14,6 @@ function Project(props) {
             </div>
         </div>
     )
-}
+} 
 
 export default Project;

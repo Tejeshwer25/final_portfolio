@@ -8,7 +8,7 @@ function ProjectList(props) {
         <div className="projectList">
             {Object.entries(props.data).map(([key, value]) => 
                 <ProjectCard key={key} value={value} />
-            )}
+            )} 
         </div>
     )
 }
