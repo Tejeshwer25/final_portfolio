@@ -18,3 +18,22 @@
 .vertical-timeline-element-content-arrow {
     border: none !important;
 }
+
+.vertical-timeline-element-title {
+    font-family: var(--heading-font);
+}
+
+.vertical-timeline-element-subtitle {
+    font-family: var(--text-font)
+}
+
+@media (max-width: 310px) {
+    .vertical-timeline-element-title {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .vertical-timeline-element-subtitle {
+        font-size: 1rem;
+    }
+}

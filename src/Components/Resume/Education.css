@@ -13,5 +13,8 @@
 
 .education__title {
     padding: 1rem 0rem;
+    font-size: 2rem !important;
+    font-weight: 600;
     color: var(--gold_color);
+    font-family: var(--heading-font);
 }

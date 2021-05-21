@@ -2,6 +2,12 @@
     padding: 4rem 0rem;
 }
 
+.home {
+    background: url(../../images/banner.png) no-repeat ;
+    background-position: 0px -30px;
+    background-size: 100% 100%;
+}
+
 @media (min-width: 880px) {
     .home {
         display: grid;
@@ -9,11 +15,18 @@
         padding: 3.5rem 0rem;
         margin: 0;
     }
+
+    .home {
+        background: url(../../images/banner.png) no-repeat ;
+        background-position: 0px -30px;
+        background-size: 100% 100%;
+    }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1024px) {
     .home {
-        background: url(../../images/banner.png) no-repeat left top;
-        background-size: 100%;
+        background: url(../../images/banner.png) no-repeat ;
+        background-position: 0px -30px;
+        background-size: 100% 100%;
     }
 }

@@ -10,8 +10,8 @@
 
 .detail__content > h1 {
     color: #fff;
-    font-size: 3rem;
     margin-bottom: 2rem;
+    font-family: var(--heading-font);
 }
 
 .detail__profession {

@@ -3,7 +3,8 @@ var DATA = {
     'name': 'Tejeshwer Singh Sachdeva',
     'image': require('../images/Profile1.png'),
     'profession': 'Front-End Developer',
-    'bio': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend.    Suspendisse vitae ligula sed nibh elementum varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend. Suspendisse vitae ligula sed nibh elementum varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend. Suspendisse vitae ligula sed nibh elementum varius.',
+    'bio': [
+      "Hello, I'am Tejeshwer Singh Sachdeva!!!👳‍♂️", "I am a 20yr old Front-End Developer based in Jhansi, India. I am currently pursuing my Bachelors in Computer Science and Engineering from ITM University, Gwalior. Apart from that I am an all time explorer in the field of web & app development👨‍💻.", "'All work and no play makes jack a dull boy', this is a famous a quote and one of the main reasons I love playing games mostly outdoor. My hobbies include: Indulging with Music🎼, Sports(like Cricket🏏, Football⚽, Badminton🏸, etc), Little bit of Reading📖...", "Apart from the Tech stuff I am also a Defence Aspirant and crazy about the Indian Armed Forces👮‍♂️. Attempted their exam 2wice but not yet selected 😜"],
     'resume': '',
   },
 
@@ -43,16 +44,23 @@ var DATA = {
     "covid tracker": {
       "name": "Covid-19 Tracker",
       "domain": "Front-End Development",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend Suspendisse vitae ligul",
+      "details": "It was built using React.JS. It lists out the covid-19 cases in the world wich can also be filtered out by coutries. API for this project was fetched from 'Disease.sh'. It features a theme toggler, implemented using 'styled-components'. Graph to display worldwide cases was implemented using 'react-chart-js2, to display the cases on the map, 'react-leaflet' was used with additional styling, 'react-spring' was used for transtition effects and the rest styling was handled by 'material-ui'.",
       "url": "https://elegant-bhabha-243c16.netlify.app/",
       "img": require("../images/Covidtracker.png"),
     }, 
     "amazon clone": {
       "name": "Amazon Clone",
       "domain": "Full-Stack Development",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl elit. Praesent convallis eu neque vel eleifend Suspendisse vitae ligul",
+      "details": "This clone allows user to add item to basket, make a payment to purchase items in basket. It also has login/logout functionalities using user email handled using Firebase. This was built using React.Js. It uses Firebase as the backend and Stripe for payment handling.",
       "url": "https://clone-1f843.web.app/",
       "img": require("../images/Amazonclone.png"),
+    },
+    "blogs": {
+      "name": "My Blogs",
+      "domain": "Content Writing",
+      "details": "These blogs were created on 'blogger.com'. This site features blogs on the domain of Data Structures & Algorithms, and Web Development(especially Front-end).  ",
+      "url": "http://lets-dev.blogspot.com/",
+      "img": require("../images/lets-dev.PNG") 
     }
   },
 

@@ -17,6 +17,10 @@
     padding: 1rem 1rem;
 }
 
+.projectCard__details > p:last-child {
+    font-size: 0.93rem;
+}
+
 .projectCard__details > p:last-child, h4 {
     color: #fff;
 }

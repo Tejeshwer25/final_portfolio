@@ -7,7 +7,7 @@ function Header() {
     return (
         <header className="header">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Tejeshwer Singh</Navbar.Brand>
+                <Navbar.Brand href="#img">Tejeshwer Singh</Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 

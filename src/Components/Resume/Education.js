@@ -10,7 +10,7 @@ function Education(props) {
                 <Timeline education={props.education}/>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Education
