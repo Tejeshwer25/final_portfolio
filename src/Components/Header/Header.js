@@ -3,11 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import "./Header.css";
 
+
 function Header() {
     return (
         <header className="header">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#img">Tejeshwer Singh</Navbar.Brand>
+                <Navbar.Brand href="http://localhost:3000/#img">Tejeshwer Singh</Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -15,19 +16,19 @@ function Header() {
                     <Nav className="mr-auto"></Nav>
 
                     <Nav>
-                        <Nav.Link href="#home">
+                        <Nav.Link href="http://localhost:3000/#home">
                             Home
                         </Nav.Link>
-                        <Nav.Link href="#about">
+                        <Nav.Link href="http://localhost:3000/#about">
                             About
                         </Nav.Link>
-                        <Nav.Link href="#resume">
+                        <Nav.Link href="http://localhost:3000/#resume">
                             Resume
                         </Nav.Link>
-                        <Nav.Link href="#projects">
+                        <Nav.Link href="http://localhost:3000/#projects">
                             Projects
                         </Nav.Link>
-                        <Nav.Link href="#contact">
+                        <Nav.Link href="http://localhost:3000/#contact">
                             Contact
                         </Nav.Link>
                     </Nav>

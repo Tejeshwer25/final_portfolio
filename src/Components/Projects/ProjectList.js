@@ -3,12 +3,22 @@ import ProjectCard from './ProjectCard';
 import "./ProjectList.css"
 
 function ProjectList(props) {
-    // console.log(props.data);
+    let pinProjects = [];
+
+    for(let project in props.data) {
+        pinProjects.push(props.data[project]);
+        if(pinProjects.length >=3) {
+            break;
+        }
+    }    
+
     return (
         <div className="projectList">
-            {Object.entries(props.data).map(([key, value]) => 
-                <ProjectCard key={key} value={value} />
-            )} 
+            { pinProjects.map((item) => 
+                <ProjectCard data={item} />
+            )}  
+
+            <ProjectCard data={undefined} />
         </div>
     )
 }

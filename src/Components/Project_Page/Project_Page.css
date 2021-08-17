@@ -1,0 +1,15 @@
+.projectPage {
+    padding: 2rem 0rem;
+}
+
+.projectPage__header > h2{
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 600;
+}
+
+.projectPage__projects {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}

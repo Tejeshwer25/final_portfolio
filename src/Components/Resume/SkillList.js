@@ -2,7 +2,6 @@ import React from 'react';
 import "./SkillList.css"
 
 function SkillList(props) {
-    console.log(props);
 
     const width = props.level + "%";
     return (

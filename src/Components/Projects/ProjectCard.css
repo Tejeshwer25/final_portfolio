@@ -5,11 +5,12 @@
     border: 2px solid var(--gold_color);
     border-radius: 10px;
     box-shadow: 1px 1px 5px 0px #fff;
+    overflow: hidden;
 }
 
 .projectCard__img > a > img {
     width: 100%;
-    height: 20rem !important;
+    height: 13rem !important;
     border-radius: 9px 9px 0px 0px;
 }
 
@@ -25,3 +26,34 @@
     color: #fff;
 }
 
+.projectCard__seeMore {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    color: var(--gold_color);
+}
+
+.projectCard__seeMore:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--dark_blue);
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.projectCard__seeMore > div  {
+    font-size: 6rem;
+    position: relative;
+}
+
+.projectCard__seeMore > div > p > span {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+}

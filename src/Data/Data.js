@@ -44,23 +44,26 @@ var DATA = {
     "covid tracker": {
       "name": "Covid-19 Tracker",
       "domain": "Front-End Development",
-      "details": "It was built using React.JS. It lists out the covid-19 cases in the world wich can also be filtered out by coutries. API for this project was fetched from 'Disease.sh'. It features a theme toggler, implemented using 'styled-components'. Graph to display worldwide cases was implemented using 'react-chart-js2, to display the cases on the map, 'react-leaflet' was used with additional styling, 'react-spring' was used for transtition effects and the rest styling was handled by 'material-ui'.",
+      "details": "It was built using React.JS. It lists out the covid-19 cases in the world wich can also be filtered out by coutries. The app also has a toogle button to switch between light and dark modes. It uses chart and map for a beautiful visualization of Covid Data",
       "url": "https://elegant-bhabha-243c16.netlify.app/",
       "img": require("../images/Covidtracker.png"),
-    }, 
+      "github": "https://github.com/Tejeshwer25/covid_tracker"
+    },
     "amazon clone": {
       "name": "Amazon Clone",
       "domain": "Full-Stack Development",
       "details": "This clone allows user to add item to basket, make a payment to purchase items in basket. It also has login/logout functionalities using user email handled using Firebase. This was built using React.Js. It uses Firebase as the backend and Stripe for payment handling.",
       "url": "https://clone-1f843.web.app/",
       "img": require("../images/Amazonclone.png"),
+      "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
     "blogs": {
       "name": "My Blogs",
       "domain": "Content Writing",
-      "details": "These blogs were created on 'blogger.com'. This site features blogs on the domain of Data Structures & Algorithms, and Web Development(especially Front-end).  ",
-      "url": "http://lets-dev.blogspot.com/",
-      "img": require("../images/lets-dev.PNG") 
+      "details": "These blogs were created on 'HashNode'. This site features blogs on the domain of Web Development(especially Front-end).  ",
+      "url": "https://hashnode.com/@tejaslca",
+      "img": require("../images/lets-dev.PNG"),
+      "github": ""
     }
   },
 
@@ -81,10 +84,6 @@ var DATA = {
       "link": "https://twitter.com/tejeshwer_singh",
       "img": require("../images/twitter.png")
     },
-    // "Email": {
-    //   "link": "tejeshwersingh2504@gmail.com",
-    //   "img": require("../images/gmail.png")
-    // },
     "Github": {
       "link": "https://github.com/Tejeshwer25",
       "img": require("../images/github.png")

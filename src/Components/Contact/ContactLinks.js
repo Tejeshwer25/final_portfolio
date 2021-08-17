@@ -2,7 +2,6 @@ import React from 'react';
 import "./ContactLinks.css"
 
 function ContactLinks(props) {
-    console.log(props.value);
     return (
         <a href={props.value.link} className="contactLinks" target="_blank" rel="noreferrer">
             <h4>{props.name}</h4>

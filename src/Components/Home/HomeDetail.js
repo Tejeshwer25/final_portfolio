@@ -2,10 +2,6 @@ import React from 'react';
 import "./HomeDetail.css"
 
 function HomeDetail(props) {
-    console.log(props.name);
-    if(props.name) {
-        console.log("hi");
-    }
     return (
         
         <div className="detail">

@@ -3,7 +3,6 @@ import SkillList from './SkillList';
 import "./Skills.css"
 
 function Skills(props) {
-    console.log(props);
     return (
         <div className="skills">
             <h4 className="education__title">My Skills</h4>

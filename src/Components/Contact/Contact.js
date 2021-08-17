@@ -3,7 +3,6 @@ import ContactLinks from "./ContactLinks";
 import "./Contact.css"
 
 function Contact(props) {
-    console.log(props.data);
     return (
         <div className="contact" id="contact">
             <div className="contact__title">
