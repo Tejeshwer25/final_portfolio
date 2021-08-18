@@ -57,14 +57,22 @@ var DATA = {
       "img": require("../images/Amazonclone.png"),
       "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
-    "blogs": {
-      "name": "My Blogs",
-      "domain": "Content Writing",
-      "details": "These blogs were created on 'HashNode'. This site features blogs on the domain of Web Development(especially Front-end).  ",
-      "url": "https://hashnode.com/@tejaslca",
-      "img": require("../images/lets-dev.PNG"),
+    "quizOnMe": {
+      "name": "Quiz on Myself",
+      "domain": "Command Line App",
+      "details": "This projects is basically just a quiz about Who knows me Well. There are 3 rounds and you've to choose correct answer from the given options.",
+      "url": "https://replit.com/@Tejeshwer/myQuiz?embed=true#index.js",
+      "img": require("../images/MyQuiz_project.png"),
       "github": ""
-    }
+    },
+    "quizOnSikhism": {
+      "name": "Quiz on Sikhism",
+      "domain": "Command Line App",
+      "details": "This projects is basically just a quiz about Sikhism. There are 3 rounds and the difficulty increases by each round. You've to choose correct answer from the given options.",
+      "url": "https://replit.com/@Tejeshwer/FandomQuiz?embed=true#index.js",
+      "img": require("../images/sikhQuiz_project.jpg"),
+      "github": ""
+    },
   },
 
   "blogs": {
