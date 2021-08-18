@@ -29,13 +29,19 @@ function App() {
 
               <Resume education={data.education} skills={data.skills}/>
 
-              <Project data={data.projects}/>
+              <Project data={data.projects} title="projects"/>
+
+              <Project data={data.blogs} title="blogs"/>
 
               <Contact data={data.social} />
             </Route>
 
             <Route exact path="/projects">
-              <ProjectPage data={data.projects}/>
+              <ProjectPage data={data.projects} title="projects"/>
+            </Route>
+
+            <Route exact path="/blogs">
+              <ProjectPage data={data.blogs} title="blogs"/>
             </Route>
           </div>
         </Switch>

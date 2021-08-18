@@ -28,6 +28,9 @@ function Header() {
                         <Nav.Link href="http://localhost:3000/#projects">
                             Projects
                         </Nav.Link>
+                        <Nav.Link href="http://localhost:3000/#blogs">
+                            Blogs
+                        </Nav.Link>
                         <Nav.Link href="http://localhost:3000/#contact">
                             Contact
                         </Nav.Link>

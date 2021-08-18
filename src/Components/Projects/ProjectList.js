@@ -18,7 +18,7 @@ function ProjectList(props) {
                 <ProjectCard data={item} />
             )}  
 
-            <ProjectCard data={undefined} />
+            <ProjectCard data={undefined} title={props.title}/>
         </div>
     )
 }

@@ -57,3 +57,23 @@
     transform: translate(-50%, -50%);
     font-weight: 600;
 }
+
+.projectCard__links {
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.projectCard__links  a {
+    color: var(--gold_color);
+    display: inline-block;
+    border: 2px solid var(--gold_color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.projectCard__links a:hover {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: var(--light_blue)
+}

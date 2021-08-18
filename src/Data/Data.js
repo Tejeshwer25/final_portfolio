@@ -67,6 +67,57 @@ var DATA = {
     }
   },
 
+  "blogs": {
+    "blog1": {
+      "name": "Git & Github",
+      "details": "Git is a distributed Version Control System(VCS), founded in 2005 by Linus Torvalds. Version Control System is the system used to track the changes in the files of our project. Git is a distributed VCS as more than one developer can make their contributions to a project without being on the same network from anywhere in the world, this is also . …",
+      "mediumURL": "https://tejeshwersingh.medium.com/git-github-6ea45eda5edf?source=user_profile---------4----------------------------",
+      "hashnodeURL": "",
+      "devURL": "",
+      "img": require("../images/gitGithub_blog.jfif"),
+    },
+    "blog2": {
+      "name": "Undoing Changes Using Git",
+      "details": "Git is by far an excellent tool for software developers across the globe, which keeps the track of our projects by taking snapshots of them when we commit the changes. But many a time while using it we feel that the changes we made are not relevant or will not improve our project, but yet by mistake we staged them or even committed them, what do we do now? …",
+      "mediumURL": "https://tejeshwersingh.medium.com/undoing-changes-using-git-4da227230cba?source=user_profile---------3----------------------------",
+      "hashnodeURL": "",
+      "devURL": "",
+      "img": require("../images/undoGit_blog.jfif"),
+    },
+    "blog3": {
+      "name": "JavaScript CheatSheet",
+      "details": "This is a sheet I had created for my reference you can use it if you want to. And if there are any mistakes please do correct me in the comments. …",
+      "mediumURL": "https://tejeshwersingh.medium.com/javascript-tutorial-58da7704f16e?source=user_profile---------2----------------------------",
+      "hashnodeURL": "",
+      "devURL": "",
+      "img": require("../images/javascript_blog.jfif"),
+    },
+    "blog4": {
+      "name": "AJAX",
+      "details": "AJAX is an acronym for Asynchronous JavaScript And XML, it is a set of web technologies to send and receive data from client to server asynchronously. It does all of this behind the scenes and that does not require reloading the page. …",
+      "mediumURL": "https://tejeshwersingh.medium.com/ajax-54ea02a2bcec?source=user_profile---------1----------------------------",
+      "hashnodeURL": "",
+      "devURL": "",
+      "img": require("../images/AJAX_blog.png"),
+    },
+    "blog5": {
+      "name": "Web Components",
+      "details": "Whenever we use any of those Front-end frameworks present in the market, like React, Angular, Vue, etc., we mostly break our User Interface into smaller manageable parts called the components. But have you ever thought that whether or not can we divide our UI into components without using these frameworks? …",
+      "mediumURL": "https://tejeshwersingh.medium.com/web-components-c3aa7238cd13?source=user_profile---------0----------------------------",
+      "hashnodeURL": "https://tejeshwer-singh.hashnode.dev/web-components-ckrc2hfz700q291s1d9lmbkyw",
+      "devURL": "https://dev.to/tejeshwer25/web-components-2303",
+      "img": require("../images/webComponent_blog.jfif"),
+    },
+    "blog6": {
+      "name": "Creating Rock, Paper & Scisoors Game",
+      "details": "A rock, paper, scissor game is usually a hand game played between 2 players normally. But in this online age let's play our part in modifying this hand-based offline game and make it digital. To make this game we'll be using HTML, CSS, and… …",
+      "mediumURL": "",
+      "hashnodeURL": "https://tejeshwer-singh.hashnode.dev/rock-paper-scissor-game-using-html-css-and-js-ckrx6xocu01ir0ls19x0h5a13",
+      "devURL": "https://dev.to/tejeshwer25/rock-paper-and-scissors-game-58g0",
+      "img": require("../images/rpsGame_blog.jfif"),
+    },
+  },
+
   "social": {
     "LinkedIn": {
       "link": "https://www.linkedin.com/in/tejeshwer-singh-sachdeva-1961a9191/",

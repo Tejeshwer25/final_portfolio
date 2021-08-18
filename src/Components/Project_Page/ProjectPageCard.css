@@ -31,10 +31,11 @@
 
 .projectPageCard__description  a {
     color: var(--gold_color);
+    display: inline-block;
     border: 2px solid var(--gold_color);
     padding: 0.2rem 0.5rem;
     border-radius: 5px;
-    margin: 0rem 1rem 0rem 0rem;
+    margin: 0.5rem 1rem 0rem 0rem;
 }
 
 .projectPageCard__description a:hover {

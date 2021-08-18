@@ -17,13 +17,19 @@ function ProjectCard(props) {
                         <h4>{props.data.name}</h4>
                         <p>{props.data.details}</p>
                     </div>
+
+                    <div className="projectCard__links">
+                        {props.data.mediumURL ? <a href={props.data.mediumURL} target="_blank" rel="noreferrer">Read More on Medium</a> : <></>}
+                        {props.data.hashnodeURL ? <a href={props.data.hashnodeURL} target="_blank" rel="noreferrer">View blog on HashNode</a> : <></>}
+                        {props.data.devURL ? <a href={props.data.devURL} target="_blank" rel="noreferrer">View blog on Dev.to</a> : <></>}
+                    </div>
                 </div> 
                 : 
-                <Link to="/projects" className="projectCard__seeMore">
+                <Link to={props.title} className="projectCard__seeMore">
                     <div>
                         <p>O<span>&gt;</span></p>
                     </div>
-                    <h5>More Projects</h5>
+                    <h5>More {props.title}</h5>
                 </Link>
             }
             
