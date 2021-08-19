@@ -8,7 +8,7 @@ function Header() {
     return (
         <header className="header">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="http://localhost:3000/#img">Tejeshwer Singh</Navbar.Brand>
+                <Navbar.Brand href="/#img">Tejeshwer Singh</Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -16,22 +16,22 @@ function Header() {
                     <Nav className="mr-auto"></Nav>
 
                     <Nav>
-                        <Nav.Link href="http://localhost:3000/#home">
+                        <Nav.Link href="/#home">
                             Home
                         </Nav.Link>
-                        <Nav.Link href="http://localhost:3000/#about">
+                        <Nav.Link href="/#about">
                             About
                         </Nav.Link>
-                        <Nav.Link href="http://localhost:3000/#resume">
+                        <Nav.Link href="/#resume">
                             Resume
                         </Nav.Link>
-                        <Nav.Link href="http://localhost:3000/#projects">
+                        <Nav.Link href="/#projects">
                             Projects
                         </Nav.Link>
-                        <Nav.Link href="http://localhost:3000/#blogs">
+                        <Nav.Link href="/#blogs">
                             Blogs
                         </Nav.Link>
-                        <Nav.Link href="http://localhost:3000/#contact">
+                        <Nav.Link href="/#contact">
                             Contact
                         </Nav.Link>
                     </Nav>
