@@ -57,6 +57,14 @@ var DATA = {
       "img": require("../images/Amazonclone.png"),
       "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
+    "minion speak": {
+      "name": "Minion Speak",
+      "domain": "Translation App",
+      "details": "This app allows the user to enter some text. The App the takes that text, runs an API and provides user with some resultant text. Note that te resultant text is how the minions will say the text user has entered.",
+      "url": "https://neo-g-camp-mark-six.vercel.app/",
+      "img": require("../images/minionTranslator_project.png"),
+      "github": "https://github.com/Tejeshwer25/NeoG_Camp_markSix"
+    },
     "quizOnMe": {
       "name": "Quiz on Myself",
       "domain": "Command Line App",
