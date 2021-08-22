@@ -57,6 +57,14 @@ var DATA = {
       "img": require("../images/Amazonclone.png"),
       "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
+    "morse code": {
+      "name": "Morse Code",
+      "domain": "Translation App",
+      "details": "This app allows the user to enter some text. The App the takes that text, runs an API and provides user with some resultant text. Note that te resultant text is the morse code for the text user has entered.",
+      "url": "https://tejeshwer25.github.io/MorseCode/",
+      "img": require("../images/morseCode_project.png"),
+      "github": "https://github.com/Tejeshwer25/MorseCode"
+    },
     "minion speak": {
       "name": "Minion Speak",
       "domain": "Translation App",
