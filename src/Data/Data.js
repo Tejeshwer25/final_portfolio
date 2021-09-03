@@ -140,6 +140,14 @@ var DATA = {
       "devURL": "https://dev.to/tejeshwer25/rock-paper-and-scissors-game-58g0",
       "img": require("../images/rpsGame_blog.jfif"),
     },
+    "blog7": {
+      "name": "Conditional Rendering in React",
+      "details": "It might have happened or will surely happen with you that, you'd want to render the whole of the react component or a part of it based on some conditions according to the state of your component. That's where conditional rendering will save you. …",
+      "mediumURL": "",
+      "hashnodeURL": "https://tejeshwer-singh.hashnode.dev/conditional-rendering-in-react",
+      "devURL": "https://dev.to/tejeshwer25/conditional-rendering-in-react-1bah",
+      "img": require("../images/conditionalRenderingReact_blog.png"),
+    },
   },
 
   "social": {
