@@ -148,6 +148,14 @@ var DATA = {
       "devURL": "https://dev.to/tejeshwer25/conditional-rendering-in-react-1bah",
       "img": require("../images/conditionalRenderingReact_blog.png"),
     },
+    "blog8": {
+      "name": "Rendering Lists in React",
+      "details": "Common scenario while working on a website is to render a list of items, that might be your follower's list, notes in a todo app, contact list, or any kind of a list. In a simple static HTML site, we use the <ul> or <ol> tag along with the <li> tags to render the list based on whether it is unordered or ordered respectively. But in this article, we'll dive into the rendering list with ReactJS. …",
+      "mediumURL": "",
+      "hashnodeURL": "https://tejeshwer-singh.hashnode.dev/rendering-lists-in-react",
+      "devURL": "https://dev.to/tejeshwer25/rendering-lists-in-react-55p4",
+      "img": require("../images/renderingList_blog.png"),
+    },
   },
 
   "social": {
