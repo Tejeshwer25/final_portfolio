@@ -57,6 +57,14 @@ var DATA = {
       "img": require("../images/Amazonclone.png"),
       "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
+    "emoji interpreter": {
+      "name": "Emoji Interpreter",
+      "domain": "Front-End Development",
+      "details": "This app allows the user to enter an emoji of their choice. The App the takes that emoji, checks if it exists in the hard-coded data and provides user with the meaning of that emoji.",
+      "url": "https://emoji-interpreter-tss.netlify.app/",
+      "img": require("../images/emojiInterpreter_project.png"),
+      "github": "https://github.com/Tejeshwer25/emojinterpreter"
+    },
     "morse code": {
       "name": "Morse Code",
       "domain": "Translation App",
@@ -135,7 +143,7 @@ var DATA = {
     "blog6": {
       "name": "Creating Rock, Paper & Scisoors Game",
       "details": "A rock, paper, scissor game is usually a hand game played between 2 players normally. But in this online age let's play our part in modifying this hand-based offline game and make it digital. To make this game we'll be using HTML, CSS, and… …",
-      "mediumURL": "",
+      "mediumURL": "https://tejeshwersingh.medium.com/rock-paper-scissors-game-using-html-css-js-6914d16f7760",
       "hashnodeURL": "https://tejeshwer-singh.hashnode.dev/rock-paper-scissor-game-using-html-css-and-js-ckrx6xocu01ir0ls19x0h5a13",
       "devURL": "https://dev.to/tejeshwer25/rock-paper-and-scissors-game-58g0",
       "img": require("../images/rpsGame_blog.jfif"),
@@ -143,7 +151,7 @@ var DATA = {
     "blog7": {
       "name": "Conditional Rendering in React",
       "details": "It might have happened or will surely happen with you that, you'd want to render the whole of the react component or a part of it based on some conditions according to the state of your component. That's where conditional rendering will save you. …",
-      "mediumURL": "",
+      "mediumURL": "https://tejeshwersingh.medium.com/conditional-rendering-in-react-43d58c597eaa",
       "hashnodeURL": "https://tejeshwer-singh.hashnode.dev/conditional-rendering-in-react",
       "devURL": "https://dev.to/tejeshwer25/conditional-rendering-in-react-1bah",
       "img": require("../images/conditionalRenderingReact_blog.png"),
