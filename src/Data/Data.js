@@ -109,14 +109,6 @@ var DATA = {
       "img": require("../images/gitGithub_blog.jfif"),
     },
     "blog2": {
-      "name": "Undoing Changes Using Git",
-      "details": "Git is by far an excellent tool for software developers across the globe, which keeps the track of our projects by taking snapshots of them when we commit the changes. But many a time while using it we feel that the changes we made are not relevant or will not improve our project, but yet by mistake we staged them or even committed them, what do we do now? …",
-      "mediumURL": "https://tejeshwersingh.medium.com/undoing-changes-using-git-4da227230cba?source=user_profile---------3----------------------------",
-      "hashnodeURL": "",
-      "devURL": "",
-      "img": require("../images/undoGit_blog.jfif"),
-    },
-    "blog3": {
       "name": "JavaScript CheatSheet",
       "details": "This is a sheet I had created for my reference you can use it if you want to. And if there are any mistakes please do correct me in the comments. …",
       "mediumURL": "https://tejeshwersingh.medium.com/javascript-tutorial-58da7704f16e?source=user_profile---------2----------------------------",
@@ -124,7 +116,7 @@ var DATA = {
       "devURL": "",
       "img": require("../images/javascript_blog.jfif"),
     },
-    "blog4": {
+    "blog3": {
       "name": "AJAX",
       "details": "AJAX is an acronym for Asynchronous JavaScript And XML, it is a set of web technologies to send and receive data from client to server asynchronously. It does all of this behind the scenes and that does not require reloading the page. …",
       "mediumURL": "https://tejeshwersingh.medium.com/ajax-54ea02a2bcec?source=user_profile---------1----------------------------",
@@ -132,7 +124,7 @@ var DATA = {
       "devURL": "",
       "img": require("../images/AJAX_blog.png"),
     },
-    "blog5": {
+    "blog4": {
       "name": "Web Components",
       "details": "Whenever we use any of those Front-end frameworks present in the market, like React, Angular, Vue, etc., we mostly break our User Interface into smaller manageable parts called the components. But have you ever thought that whether or not can we divide our UI into components without using these frameworks? …",
       "mediumURL": "https://tejeshwersingh.medium.com/web-components-c3aa7238cd13?source=user_profile---------0----------------------------",
@@ -140,7 +132,7 @@ var DATA = {
       "devURL": "https://dev.to/tejeshwer25/web-components-2303",
       "img": require("../images/webComponent_blog.jfif"),
     },
-    "blog6": {
+    "blog5": {
       "name": "Creating Rock, Paper & Scisoors Game",
       "details": "A rock, paper, scissor game is usually a hand game played between 2 players normally. But in this online age let's play our part in modifying this hand-based offline game and make it digital. To make this game we'll be using HTML, CSS, and… …",
       "mediumURL": "https://tejeshwersingh.medium.com/rock-paper-scissors-game-using-html-css-js-6914d16f7760",
@@ -148,7 +140,7 @@ var DATA = {
       "devURL": "https://dev.to/tejeshwer25/rock-paper-and-scissors-game-58g0",
       "img": require("../images/rpsGame_blog.jfif"),
     },
-    "blog7": {
+    "blog6": {
       "name": "Conditional Rendering in React",
       "details": "It might have happened or will surely happen with you that, you'd want to render the whole of the react component or a part of it based on some conditions according to the state of your component. That's where conditional rendering will save you. …",
       "mediumURL": "https://tejeshwersingh.medium.com/conditional-rendering-in-react-43d58c597eaa",
@@ -156,7 +148,7 @@ var DATA = {
       "devURL": "https://dev.to/tejeshwer25/conditional-rendering-in-react-1bah",
       "img": require("../images/conditionalRenderingReact_blog.png"),
     },
-    "blog8": {
+    "blog7": {
       "name": "Rendering Lists in React",
       "details": "Common scenario while working on a website is to render a list of items, that might be your follower's list, notes in a todo app, contact list, or any kind of a list. In a simple static HTML site, we use the <ul> or <ol> tag along with the <li> tags to render the list based on whether it is unordered or ordered respectively. But in this article, we'll dive into the rendering list with ReactJS. …",
       "mediumURL": "",
