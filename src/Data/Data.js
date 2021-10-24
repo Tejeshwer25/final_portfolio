@@ -57,6 +57,14 @@ var DATA = {
       "img": require("../images/Amazonclone.png"),
       "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
+    "our books": {
+      "name": "Book Recommendations",
+      "domain": "Front-End Development",
+      "details": "This app recommends user some of my personal favorite books. The data is static as it a front-end task :) . PLus the user can filter the books according to their choice.",
+      "url": "https://our-books.netlify.app/",
+      "img" : require("../images/bookRecommend_project.png"),
+      "github": "https://github.com/Tejeshwer25/ourbooks"
+    },
     "emoji interpreter": {
       "name": "Emoji Interpreter",
       "domain": "Front-End Development",
