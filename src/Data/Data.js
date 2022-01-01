@@ -57,6 +57,14 @@ var DATA = {
       "img": require("../images/Amazonclone.png"),
       "github": "https://github.com/Tejeshwer25/Amazon-clone"
     },
+    "cash register": {
+      "name": "Cash Register App",
+      "domain": "Front-End Development",
+      "details": "This app allows user to enter the bill amount and the cash provided by the customer. It then provides the owner the change to be returned based on currency denominations. This is made using HTML, CSS, & JS",
+      "url": "https://cash-managementregister.netlify.app/",
+      "img": require("../images/cashRegister_image.png"),
+      "github": "https://github.com/Tejeshwer25/cash_register"
+    },
     "our books": {
       "name": "Book Recommendations",
       "domain": "Front-End Development",
