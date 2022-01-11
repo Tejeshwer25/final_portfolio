@@ -5,7 +5,7 @@ var DATA = {
     'profession': 'Front-End Developer',
     'bio': [
       "Hello, I'am Tejeshwer Singh Sachdeva!!!👳‍♂️", "I am a 20yr old Front-End Developer based in Jhansi, India. I am currently pursuing my Bachelors in Computer Science and Engineering from ITM University, Gwalior. Apart from that I am an all time explorer in the field of web & app development👨‍💻.", "'All work and no play makes jack a dull boy', this is a famous a quote and one of the main reasons I love playing games mostly outdoor. My hobbies include: Indulging with Music🎼, Sports(like Cricket🏏, Football⚽, Badminton🏸, etc), Little bit of Reading📖...", "Apart from the Tech stuff I am also a Defence Aspirant and crazy about the Indian Armed Forces👮‍♂️."],
-    'resume': 'https://drive.google.com/file/d/1TMnKbkr_aftfZ24w1DipzSjKbjH-Pqia/view?usp=sharing',
+    'resume': 'https://drive.google.com/file/d/1sXk9ZGphC6i1NRHoDcf9Oke5J3fttZyz/view?usp=sharing',
   },
 
   "education": {
