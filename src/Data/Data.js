@@ -40,12 +40,22 @@ var DATA = {
     "seo": "5"
   },
 
+  "experience": [
+    {
+      "companyName": "Invsto",
+      "role": "Front-End Web Development Intern",
+      "startDate": "November 2021",
+      "endDate": "",
+      "description": ["Worked on the SharkSigma portal of the company.", "Joined the initial development team to build theproduct from scratch, using ReactJS as the primary frontend tool.", "Based on the metrics the average productivity of the team growed from @this to @this after the addition.", "Tools used by Front-End team were: ReactJS, Figma, Material-UI."],
+    },
+  ],
+
   "projects": {
     "covid tracker": {
       "name": "Covid-19 Tracker",
       "domain": "Front-End Development",
       "details": "It was built using React.JS. It lists out the covid-19 cases in the world wich can also be filtered out by coutries. The app also has a toogle button to switch between light and dark modes. It uses chart and map for a beautiful visualization of Covid Data",
-      "url": "https://elegant-bhabha-243c16.netlify.app/",
+      "url": "https://covid-19-tracker-tejeshwer.netlify.app/",
       "img": require("../images/Covidtracker.png"),
       "github": "https://github.com/Tejeshwer25/covid_tracker"
     },
@@ -104,15 +114,7 @@ var DATA = {
       "url": "https://replit.com/@Tejeshwer/myQuiz?embed=true#index.js",
       "img": require("../images/MyQuiz_project.png"),
       "github": ""
-    },
-    "quizOnSikhism": {
-      "name": "Quiz on Sikhism",
-      "domain": "Command Line App",
-      "details": "This projects is basically just a quiz about Sikhism. There are 3 rounds and the difficulty increases by each round. You've to choose correct answer from the given options.",
-      "url": "https://replit.com/@Tejeshwer/FandomQuiz?embed=true#index.js",
-      "img": require("../images/sikhQuiz_project.jpg"),
-      "github": ""
-    },
+    }
   },
 
   "blogs": {
