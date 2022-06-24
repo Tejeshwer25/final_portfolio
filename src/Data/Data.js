@@ -82,7 +82,7 @@ var DATA = {
     palindromeBirthday: {
       name: "Palindrome Birthday",
       domain: "Front-end Development",
-      details: "Checks if your birthdate is palindrome in nature or not.",
+      details: "The app takes user's birthday, and based on that tells whether or not the user was born on a Palidrome day. The app checks the palindromic sequence across 3 date formats: 'dd - mm - yyyy', 'mm - dd - yyyy', 'mm - dd - yy'.",
       url: "https://palindrome-birthday-mark13-tejas.netlify.app/",
       img: require("../images/palindromeBirthday.png"),
       github: "https://github.com/Tejeshwer25/luckyPalindrome_mark13",
@@ -93,7 +93,7 @@ var DATA = {
       details:
         "App to check your knowledge on triangles. The Quiz section contains around 10 questions based on the concept of triangles. The questions are objective in nature, and for each correct answer the user is awarded 1 mark.",
       url: "https://know-triangles-mark12.netlify.app/",
-      img: "https://github.com/Tejeshwer25/knowTriangles_mark12/raw/main/preview.png",
+      img: require("../images/knowTriangles.png"),
       github: "https://github.com/Tejeshwer25/knowTriangles_mark12",
     },
     luckyBirthday: {
@@ -102,7 +102,7 @@ var DATA = {
       details:
         "The app takes the User's Birthday, and a number as an input. It then checks whether the number is lucky or not for the user depending on some calculations. The calculation is that if the sum of digits of birthday date is divisible by the number entered, then the number is termed as lucky otherwise not.",
       url: "https://lucky-birthday-mark-11-tejas.netlify.app/",
-      img: "https://github.com/Tejeshwer25/luckyBirthday_mark11/raw/main/preview.png",
+      img: require("../images/luckyBirthday.png"),
       github: "https://github.com/Tejeshwer25/luckyBirthday_mark11",
     },
     "cash register": {
