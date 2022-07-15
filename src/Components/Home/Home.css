@@ -1,22 +1,21 @@
 .home {
-    padding: 4rem 0rem;
+  padding: 4rem 0rem;
+  position: relative;
 }
 
 @media (min-width: 880px) {
-    .home {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        padding: 3.5rem 0rem;
-        margin: 0;
-    }
-
-    
+  .home {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 3.5rem 0rem;
+    margin: 0;
+  }
 }
 
 @media (min-width: 1024px) {
-    .home {
-        background: url(../../images/banner.png) no-repeat ;
-        background-position: 0px -30px;
-        background-size: 100% 100%;
-    }
+  .home {
+    background: url(../../images/banner.png) no-repeat;
+    background-position: 0px -30px;
+    background-size: 100% 100%;
+  }
 }

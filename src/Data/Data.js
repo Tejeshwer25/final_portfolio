@@ -1,7 +1,7 @@
 var DATA = {
   profile: {
     name: "Tejeshwer Singh Sachdeva",
-    image: require("../images/Profile1.png"),
+    image: require("../images/a.png"),
     profession: "Front-End Developer",
     bio: [
       "Hello, I'am Tejeshwer Singh Sachdeva!!!👳‍♂️",
@@ -82,7 +82,8 @@ var DATA = {
     palindromeBirthday: {
       name: "Palindrome Birthday",
       domain: "Front-end Development",
-      details: "The app takes user's birthday, and based on that tells whether or not the user was born on a Palidrome day. The app checks the palindromic sequence across 3 date formats: 'dd - mm - yyyy', 'mm - dd - yyyy', 'mm - dd - yy'.",
+      details:
+        "The app takes user's birthday, and based on that tells whether or not the user was born on a Palidrome day. The app checks the palindromic sequence across 3 date formats: 'dd - mm - yyyy', 'mm - dd - yyyy', 'mm - dd - yy'.",
       url: "https://palindrome-birthday-mark13-tejas.netlify.app/",
       img: require("../images/palindromeBirthday.png"),
       github: "https://github.com/Tejeshwer25/luckyPalindrome_mark13",

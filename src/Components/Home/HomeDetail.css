@@ -1,60 +1,63 @@
-.detail__content{
-    text-align: center;
-    margin: 1rem 0rem;
+.detail__content {
+  text-align: center;
+  margin: 1rem 0rem;
 }
 
 .detail__greet {
-    font-size: 1.5rem;
-    margin: 0;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 .detail__content > h1 {
-    color: #fff;
-    margin-bottom: 2rem;
-    font-family: var(--heading-font);
+  color: #fff;
+  margin-bottom: 2rem;
+  font-family: var(--heading-font);
 }
 
 .detail__profession {
-    font-size: 1.7rem;
-    font-weight: bold;
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .detail__contentimg {
-    z-index: 2;
+  z-index: 2;
 }
 
-.detail__content--img{
-    margin: 2rem 0rem;
-    max-width: 100%;
-    text-align: left;
-    z-index: 2;
-    /* overflow: visible; */
-    filter: drop-shadow(2px 4px 8px var(--light_blue));
+.detail__content--img {
+  margin: 2rem 0rem;
+  max-width: 100%;
+  text-align: left;
+  z-index: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  /* overflow: visible; */
+  filter: drop-shadow(2px 4px 8px var(--light_blue));
 }
 
 @media (min-width: 880px) {
-    .detail {
-        align-self: end;
-    }
+  .detail {
+    align-self: end;
+  }
 
-    .detail__content {
-        text-align: left;
-        padding: 8rem 2rem;
-    }
+  .detail__content {
+    text-align: left;
+    padding: 8rem 2rem;
+  }
 
-    .detail__greet {
-        font-size: 2rem;
-    }
+  .detail__greet {
+    font-size: 2rem;
+  }
 
-    .detail__content > h1 {
-        font-size: 4rem;
-    }
+  .detail__content > h1 {
+    font-size: 4rem;
+  }
 
-    .detail__profession {
-        font-size: 2rem;
-    }
+  .detail__profession {
+    font-size: 2rem;
+  }
 
-    .detail__content--img {
-        height: 30rem;
-    }
+  .detail__content--img {
+    height: 30rem;
+  }
 }
