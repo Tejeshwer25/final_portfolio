@@ -1,4 +1,4 @@
-export const DATA = {
+export const data = {
   profile: {
     name: "Tejeshwer Singh Sachdeva",
     image: require("../images/a.png"),
