@@ -10,7 +10,7 @@ var DATA = {
       "Apart from the Tech stuff I am also a Defence Aspirant and crazy about the Indian Armed Forces👮‍♂️.",
     ],
     resume:
-      "https://drive.google.com/file/d/1sXk9ZGphC6i1NRHoDcf9Oke5J3fttZyz/view?usp=sharing",
+      "https://drive.google.com/file/d/1hWt_Fi0KsMxN0Z2do8PMfFp1vii-Rnjr/view?usp=sharing",
   },
 
   education: {
