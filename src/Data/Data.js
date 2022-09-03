@@ -79,6 +79,15 @@ var DATA = {
       img: require("../images/Amazonclone.png"),
       github: "https://github.com/Tejeshwer25/Amazon-clone",
     },
+    stockCalculator: {
+      name: "Stock Profit and Loss Calculator",
+      domain: "Front-end Development",
+      details:
+        "App to calculate your profit/loss in stock bought, using the initial price, number of stocks bought, and the current price of the stocks.",
+      url: "https://tejeshwer25.github.io/Mark14_StockProfitAndLoss/",
+      img: require("../images/stockCalculator.png"),
+      github: "https://github.com/Tejeshwer25/Mark14_StockProfitAndLoss",
+    },
     palindromeBirthday: {
       name: "Palindrome Birthday",
       domain: "Front-end Development",
