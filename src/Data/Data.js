@@ -80,7 +80,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/Amazon-clone",
     },
     stockCalculator: {
-      name: "Stock Profit and Loss Calculator",
+      name: "Mark-14: Stock Profit and Loss Calculator",
       domain: "Front-end Development",
       details:
         "App to calculate your profit/loss in stock bought, using the initial price, number of stocks bought, and the current price of the stocks.",
@@ -89,7 +89,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/Mark14_StockProfitAndLoss",
     },
     palindromeBirthday: {
-      name: "Palindrome Birthday",
+      name: "Mark-13: Palindrome Birthday",
       domain: "Front-end Development",
       details:
         "The app takes user's birthday, and based on that tells whether or not the user was born on a Palidrome day. The app checks the palindromic sequence across 3 date formats: 'dd - mm - yyyy', 'mm - dd - yyyy', 'mm - dd - yy'.",
@@ -98,7 +98,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/luckyPalindrome_mark13",
     },
     triangleQuiz: {
-      name: "Know Triangles",
+      name: "Mark-12: Know Triangles",
       domain: "Front-end Development",
       details:
         "App to check your knowledge on triangles. The Quiz section contains around 10 questions based on the concept of triangles. The questions are objective in nature, and for each correct answer the user is awarded 1 mark.",
@@ -107,7 +107,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/knowTriangles_mark12",
     },
     luckyBirthday: {
-      name: "Lucky Birthday",
+      name: "Mark-11: Lucky Birthday",
       domain: "Front-end Development",
       details:
         "The app takes the User's Birthday, and a number as an input. It then checks whether the number is lucky or not for the user depending on some calculations. The calculation is that if the sum of digits of birthday date is divisible by the number entered, then the number is termed as lucky otherwise not.",
@@ -116,7 +116,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/luckyBirthday_mark11",
     },
     "cash register": {
-      name: "Cash Register App",
+      name: "Mark-10: Cash Register App",
       domain: "Front-End Development",
       details:
         "This app allows user to enter the bill amount and the cash provided by the customer. It then provides the owner the change to be returned based on currency denominations. This is made using HTML, CSS, & JS",
@@ -125,7 +125,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/cash_register",
     },
     "our books": {
-      name: "Book Recommendations",
+      name: "Mark-9: Book Recommendations",
       domain: "Front-End Development",
       details:
         "This app recommends user some of my personal favorite books. The data is static as it a front-end task :) . PLus the user can filter the books according to their choice.",
@@ -134,7 +134,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/ourbooks",
     },
     "emoji interpreter": {
-      name: "Emoji Interpreter",
+      name: "Mark-8: Emoji Interpreter",
       domain: "Front-End Development",
       details:
         "This app allows the user to enter an emoji of their choice. The App the takes that emoji, checks if it exists in the hard-coded data and provides user with the meaning of that emoji.",
@@ -143,7 +143,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/emojinterpreter",
     },
     "morse code": {
-      name: "Morse Code",
+      name: "Mark-7: Morse Code",
       domain: "Translation App",
       details:
         "This app allows the user to enter some text. The App the takes that text, runs an API and provides user with some resultant text. Note that te resultant text is the morse code for the text user has entered.",
@@ -152,7 +152,7 @@ var DATA = {
       github: "https://github.com/Tejeshwer25/MorseCode",
     },
     "minion speak": {
-      name: "Minion Speak",
+      name: "Mark-6: Minion Speak",
       domain: "Translation App",
       details:
         "This app allows the user to enter some text. The App the takes that text, runs an API and provides user with some resultant text. Note that te resultant text is how the minions will say the text user has entered.",
@@ -160,14 +160,23 @@ var DATA = {
       img: require("../images/minionTranslator_project.png"),
       github: "https://github.com/Tejeshwer25/NeoG_Camp_markSix",
     },
+    quizOnTopic: {
+      name: "Mark-2: Quiz on Indian Armed Forces",
+      domain: "Command Line App",
+      details:
+        "This projects is basically just a quiz about Who has the basic knowledge about the Indian Armed Forces. There are 3 rounds and you've to choose correct answer from the given options.",
+      url: "https://replit.com/@Tejeshwer/Mark-2?embed=true#index.js",
+      img: require("../images/MyQuiz_project.png"),
+      github: "https://github.com/Tejeshwer25/Mark2-Quiz",
+    },
     quizOnMe: {
-      name: "Quiz on Myself",
+      name: "Mark-1: Quiz on Myself",
       domain: "Command Line App",
       details:
         "This projects is basically just a quiz about Who knows me Well. There are 3 rounds and you've to choose correct answer from the given options.",
       url: "https://replit.com/@Tejeshwer/myQuiz?embed=true#index.js",
       img: require("../images/MyQuiz_project.png"),
-      github: "",
+      github: "https://github.com/Tejeshwer25/myQuiz_mark1",
     },
   },
 
