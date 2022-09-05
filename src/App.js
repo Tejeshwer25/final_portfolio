@@ -5,7 +5,7 @@ import About from "./Components/About/About";
 import Project from "./Components/Projects/Project";
 import Contact from "./Components/Contact/Contact";
 import Resume from "./Components/Resume/Resume";
-import data from './Data/Data';
+import {data} from './Data/Data';
 
 import {BrowserRouter as Router,
         Switch,

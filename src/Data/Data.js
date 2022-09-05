@@ -1,4 +1,4 @@
-var DATA = {
+export const data = {
   profile: {
     name: "Tejeshwer Singh Sachdeva",
     image: require("../images/a.png"),
@@ -271,5 +271,3 @@ var DATA = {
     },
   },
 };
-
-export default DATA;
