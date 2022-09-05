@@ -166,7 +166,7 @@ export const data = {
       details:
         "This projects is basically just a quiz about Who has the basic knowledge about the Indian Armed Forces. There are 3 rounds and you've to choose correct answer from the given options.",
       url: "https://replit.com/@Tejeshwer/Mark-2?embed=true#index.js",
-      img: require("../images/MyQuiz_project.png"),
+      img: require("../images/armedForcesQuiz.png"),
       github: "https://github.com/Tejeshwer25/Mark2-Quiz",
     },
     quizOnMe: {
