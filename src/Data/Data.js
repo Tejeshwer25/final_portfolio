@@ -16,7 +16,7 @@ export const data = {
   education: {
     btech: {
       college: "ITM University, Gwalior",
-      score: "",
+      score: "8.6 GPA",
       year: "2019-2023",
       degree: "B.Tech Computer Science",
     },
