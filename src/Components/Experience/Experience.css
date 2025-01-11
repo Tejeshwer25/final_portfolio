@@ -1,0 +1,40 @@
+.experience {
+    padding: 3rem 2rem;
+}
+
+.experience__list, .experience__item {
+    padding: 1rem 0rem;
+}
+
+.experience__itemHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience__role, .experience__description {
+    color: white;
+}
+
+.experience__description {
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: var(--text-font);
+}
+
+.experience__techStack {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.experience__tech {
+    padding: 0.5rem 1rem;
+    background-color: #1f1f1f;
+    border-radius: 0.5rem;
+    color: white;
+
+    border: 1px solid var(--gold_color);
+    font-size: 0.9rem;
+}

@@ -12,6 +12,7 @@ import {BrowserRouter as Router,
         Route
       } from 'react-router-dom';
 import ProjectPage from './Components/Project_Page/Project_Page';
+import Experience from './Components/Experience/Experience';
 
 function App() {
 
@@ -27,11 +28,13 @@ function App() {
 
               <About data={data.profile}/>
 
+              <Experience data={data.experience} title="Experience" />
+
               <Resume education={data.education} skills={data.skills}/>
 
-              <Project data={data.projects} title="projects"/>
+              <Project data={data.projects} title="Projects"/>
 
-              <Project data={data.blogs} title="blogs"/>
+              <Project data={data.blogs} title="Blogs"/>
 
               <Contact data={data.social} />
             </Route>

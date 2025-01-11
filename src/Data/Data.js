@@ -4,10 +4,10 @@ export const data = {
     image: require("../images/a.png"),
     profession: "Front-End Developer",
     bio: [
-      "Hello, I'am Tejeshwer Singh Sachdeva!!!👳‍♂️",
-      "I am a 23yr old Front-End Developer based in Jhansi, India. I am currently pursuing my Bachelors in Computer Science and Engineering from ITM University, Gwalior. Apart from that I am an all time explorer in the field of web & app development👨‍💻.",
-      "'All work and no play makes jack a dull boy', this is a famous a quote and one of the main reasons I love playing games mostly outdoor. My hobbies include: Indulging with Music🎼, Sports(like Cricket🏏, Football⚽, Badminton🏸, etc), Little bit of Reading📖...",
-      "Apart from the Tech stuff I am also a Defence Aspirant and crazy about the Indian Armed Forces👮‍♂️.",
+      "Hi there! I’m an iOS Developer with a strong foundation in front-end web development, and I have a passion for building intuitive, user-centric applications across platforms. Currently, I’m an Associate Engineer at Hughes Systique Corporation (HSC), where I work on iOS applications that leverage my expertise in Swift, UIKit, and XCTest.",
+      "I began my career as a Frontend Developer Intern at Invsto, where I contributed to building a unified trading interface, gaining experience in creating dynamic and responsive web applications. I then moved to Shloka Concepts, where I developed CRM websites as a Frontend Developer Intern, honing my skills in web technologies like JavaScript and ReactJS.", 
+      "In my current role at HSC, I’ve worked on several impactful iOS application projects, including HughesLEO, Wifi Connection Applications, and FocalPoint. These experiences have sharpened my skills in building scalable, performant, and user-friendly applications for both iOS and cross-platform environments.",
+      "I am driven by the challenge of solving complex problems and continuously improving my craft. I’m always open to learning new technologies and excited about opportunities that allow me to grow and make an impact.",
     ],
     resume:
       "https://drive.google.com/file/d/1hWt_Fi0KsMxN0Z2do8PMfFp1vii-Rnjr/view?usp=sharing",
@@ -35,14 +35,13 @@ export const data = {
   },
 
   skills: {
+    swift: "80",
+    "iOS development": "70",
     "front-end": "70",
-    "back-end": "10",
     "full-stack": "40",
     "react.js": "80",
-    python: "60",
-    javascript: "70",
+    javascript: "80",
     "c++": "60",
-    seo: "5",
   },
 
   experience: [
@@ -50,13 +49,36 @@ export const data = {
       companyName: "Invsto",
       role: "Front-End Web Development Intern",
       startDate: "November 2021",
-      endDate: "",
+      endDate: "September 2022",
       description: [
-        "Worked on the SharkSigma portal of the company.",
-        "Joined the initial development team to build theproduct from scratch, using ReactJS as the primary frontend tool.",
-        "Based on the metrics the average productivity of the team growed from @this to @this after the addition.",
-        "Tools used by Front-End team were: ReactJS, Figma, Material-UI.",
+        "Implemented React-Redux in the application, streamlining state management and improving application performance by 22%. This enhancement led to a 25% reduction in development time for new features and increased overall application responsiveness.",
+        "Developed a strategy code editor using Monaco, enabling users to write Python scripts for trade execution strategies, thereby enhancing the platform’s functionality.",
+        "Utilized Axios for optimized API calls, reducing data fetching time and improving overall application performance."
       ],
+      technologies: ["ReactJS", "React-Redux", "Monaco", "Axios"],
+    },
+    {
+      companyName: "Shloka Concepts",
+      role: "Front-End Web Development Intern",
+      startDate: "September 2022",
+      endDate: "December 2022",
+      description: [
+        "Streamlined invoice generation and email processes, minimizing user intervention by implementing automation features using React-pdf library.",
+        "Implemented seamless integration between Shopify and CRM platforms, optimizing product mapping processes and enhancing overall workflow efficiency with ReactJS, React-Redux and Ant Design components."
+      ],
+      technologies: ["ReactJS", "React-Redux", "React-pdf", "Ant Design"],
+    },
+    {
+      companyName: "Hughes Systique Corporation",
+      role: "Associate Engineer",
+      startDate: "January 2023",
+      endDate: "till date",
+      description: [
+        "Designed and implemented a robust file download mechanism using MVVM, ensuring seamless synchronization of server files upon expiration. Implemented additional logic for synchronizing local bundle files with server files addressing scenarios involving connectivity issues and server responses.",
+        "Developed a user consent feature to toggle the upload of Firebase crash logs, analytics, and other pertinent user data. Implemented this feature using MVVM to maintain clear separation of concerns and ensure smooth integration with existing application components.",
+        "Conducted thorough testing of application components using XCTest framework. Implemented API response simulations, boosting overall test coverage by 42%"
+      ],
+      technologies: ["Swift", "UIKIt", "Alamofire", "MVVM", "XCTest", "Firebase"],
     },
   ],
 
