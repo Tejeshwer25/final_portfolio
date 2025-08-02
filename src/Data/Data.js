@@ -5,7 +5,7 @@ export const data = {
     profession: "Front-End Developer",
     bio: [
       "Hi there! I’m an iOS Developer with a strong foundation in front-end web development, and I have a passion for building intuitive, user-centric applications across platforms. Currently, I’m an Associate Engineer at Hughes Systique Corporation (HSC), where I work on iOS applications that leverage my expertise in Swift, UIKit, and XCTest.",
-      "I began my career as a Frontend Developer Intern at Invsto, where I contributed to building a unified trading interface, gaining experience in creating dynamic and responsive web applications. I then moved to Shloka Concepts, where I developed CRM websites as a Frontend Developer Intern, honing my skills in web technologies like JavaScript and ReactJS.", 
+      "I began my career as a Frontend Developer Intern at Invsto, where I contributed to building a unified trading interface, gaining experience in creating dynamic and responsive web applications. I then moved to Shloka Concepts, where I developed CRM websites as a Frontend Developer Intern, honing my skills in web technologies like JavaScript and ReactJS.",
       "In my current role at HSC, I’ve worked on several impactful iOS application projects, including HughesLEO, Wifi Connection Applications, and FocalPoint. These experiences have sharpened my skills in building scalable, performant, and user-friendly applications for both iOS and cross-platform environments.",
       "I am driven by the challenge of solving complex problems and continuously improving my craft. I’m always open to learning new technologies and excited about opportunities that allow me to grow and make an impact.",
     ],
@@ -41,7 +41,6 @@ export const data = {
     "full-stack": "40",
     "react.js": "80",
     javascript: "80",
-    "c++": "60",
   },
 
   experience: [
@@ -70,15 +69,36 @@ export const data = {
     },
     {
       companyName: "Hughes Systique Corporation",
-      role: "Associate Engineer",
+      role: "Trainee",
       startDate: "January 2023",
-      endDate: "till date",
+      endDate: "October 2023",
       description: [
-        "Designed and implemented a robust file download mechanism using MVVM, ensuring seamless synchronization of server files upon expiration. Implemented additional logic for synchronizing local bundle files with server files addressing scenarios involving connectivity issues and server responses.",
-        "Developed a user consent feature to toggle the upload of Firebase crash logs, analytics, and other pertinent user data. Implemented this feature using MVVM to maintain clear separation of concerns and ensure smooth integration with existing application components.",
         "Conducted thorough testing of application components using XCTest framework. Implemented API response simulations, boosting overall test coverage by 42%"
       ],
-      technologies: ["Swift", "UIKIt", "Alamofire", "MVVM", "XCTest", "Firebase"],
+      technologies: ["Swift", "UIKit", "Alamofire", "MVVM", "XCTest", "Firebase"],
+    },
+    {
+      companyName: "Hughes Systique Corporation",
+      role: "Associate Engineer",
+      startDate: "October 2023",
+      endDate: "April 2025",
+      description: [
+        "Implemented multi-Firebase project integration in an iOS app, enabling seamless interaction with multiple Firebase backends for improved scalability and environment management",
+        "Integrated SwiftUI components into an existing UIKit-based architecture using UIHostingController, seamlessly bridging both frameworks for a modern and scalable UI experience",
+        "Leveraged Combine to establish a reactive data flow for state updates and event-driven communication"
+      ],
+      technologies: ["Swift", "UIKit", "Alamofire", "MVVM", "XCTest", "Firebase", "Unit Testing", "Combine", "SwiftUI"],
+    },
+    {
+      companyName: "Hughes Systique Corporation",
+      role: "Engineer",
+      startDate: "April 2025",
+      endDate: "till date",
+      description: [
+        "Worked on CarPlay integration, enabling users to monitor application activity directly from the car dashboard, enhancing accessibility and extending platform support.",
+        "Contributed enhancements for file download mechanism by adding real-time progress updates, timeout-based failure handling, automatic retry on network recovery, and redownload support after deletion.",
+      ],
+      technologies: ["Swift", "UIKKit", "Alamofire", "MVVM", "XCTest", "Firebase", "CarPlay", "SwiftUI", "Combine", "Unit Testing"],
     },
   ],
 
